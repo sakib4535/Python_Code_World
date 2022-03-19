@@ -74,6 +74,33 @@ elif guess < answer:
         print("Well Done, You are Right!")
 else:
     print("Your Guess is Right!\nYou are Genius!\n You Guessed it First Time!")
+    
+# Alternative method for if, else-if or elif
+
+if guess != answer:
+    if guess < answer:
+        print("Please Guess Higher")
+    else:
+        print("Please Guess Lower")
+    guess = int(input)
+    if gues == answer:
+        print("Well Done, You are Right!")
+    else:
+        print("Sorry, You Guessed it Wrong!")
+else:
+    print("You are Wrong")
+
+# Executing Final Words
+day = "Monday"
+temperature = 30
+raining = True
+
+if day == "Saturday" and temperature > 27 or not raining:
+    print("Go Outside and Walk Freely")
+else:
+    print("Stay at Home and Learn Python")
+
+
 
 
 
