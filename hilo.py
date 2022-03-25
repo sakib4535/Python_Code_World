@@ -24,3 +24,7 @@ while True:
         print("Please enter h, l or c")
 
     guess = guess + 1
+    
+else:
+    print("You Got the Number {}".format(low))
+    print("I got it in {} guess".format(guess))
