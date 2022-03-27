@@ -28,3 +28,6 @@ name = ["mash",
 name.sort(key=str.casefold)
 print(name)
 
+name[3:] = ["Trace", "Bruce"]
+print(name [3:])
+print(name)
